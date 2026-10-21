@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Claim Vault | Warranty Manager</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="brand">
+            <div class="brand-logo">🛡️</div>
+
+            <div>
+                <h2>Claim Vault</h2>
+                <p>Warranty Manager</p>
+            </div>
+        </div>
+
+        <nav class="sidebar-nav">
+
+            <a href="#" class="nav-item active">
+                <span>▦</span>
+                <span>Dashboard</span>
+            </a>
+
+            <a href="#" class="nav-item">
+                <span>◇</span>
+                <span>My Products</span>
+            </a>
+
+            <a href="#" class="nav-item">
+                <span>♢</span>
+                <span>Warranties</span>
+            </a>
+
+            <a href="#" class="nav-item">
+                <span>▤</span>
+                <span>Claims</span>
+            </a>
+
+            <a href="#" class="nav-item">
+                <span>♧</span>
+                <span>Notifications</span>
+            </a>
+
+        </nav>
+
+        <div class="sidebar-bottom">
+
+            <a href="#" class="nav-item">
+                <span>⚙</span>
+                <span>Settings</span>
+            </a>
+
+            <a href="#" class="nav-item">
+                <span>?</span>
+                <span>Help & Support</span>
+            </a>
+
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN -->
+    <main class="main">
+
+        <!-- TOP BAR -->
+        <header class="topbar">
+
+            <nav class="top-tabs">
+
+                <a href="#" class="top-tab active-tab">
+                    Dashboard
+                </a>
+
+                <a href="#" class="top-tab">
+                    Products
+                </a>
+
+                <a href="#" class="top-tab">
+                    Warranties
+                </a>
+
+                <a href="#" class="top-tab">
+                    Claims
+                </a>
+
+                <a href="#" class="top-tab">
+                    Messages
+                </a>
+
+            </nav>
+
+            <div class="top-actions">
+
+                <div class="search-box">
+                    🔍
+                    <input
+                        type="text"
+                        id="searchInput"
+                        placeholder="Search products..."
+                    >
+                </div>
+
+                <button class="icon-button">
+                    🔔
+                    <span class="notification-dot"></span>
+                </button>
+
+                <div class="user-profile">
+
+                    <div class="avatar">
+                        A
+                    </div>
+
+                    <div>
+                        <strong>Anand</strong>
+                        <small>Student</small>
+                    </div>
+
+                    <span>⌄</span>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- STAT CARDS -->
+        <section class="stats-grid">
+
+            <div class="stat-card blue-card">
+
+                <div class="stat-icon blue-icon">
+                    📦
+                </div>
+
+                <div class="stat-info">
+                    <span>Total Products</span>
+                    <strong>12</strong>
+                    <small>Products registered</small>
+                </div>
+
+                <div class="mini-chart blue-chart">
+                    ▂▄▅▆▇
+                </div>
+
+                <span class="corner-arrow">↗</span>
+
+            </div>
+
+
+            <div class="stat-card green-card">
+
+                <div class="stat-icon green-icon">
+                    🛡️
+                </div>
+
+                <div class="stat-info">
+                    <span>Active Warranties</span>
+                    <strong>9</strong>
+                    <small>Currently protected</small>
+                </div>
+
+                <div class="mini-chart green-chart">
+                    ▂▄▅▇█
+                </div>
+
+                <span class="corner-arrow">↗</span>
+
+            </div>
+
+
+            <div class="stat-card orange-card">
+
+                <div class="stat-icon orange-icon">
+                    ◷
+                </div>
+
+                <div class="stat-info">
+                    <span>Expiring Soon</span>
+                    <strong>3</strong>
+                    <small>Within 30 days</small>
+                </div>
+
+                <div class="mini-chart orange-chart">
+                    ▂▃▅▆█
+                </div>
+
+                <span class="corner-arrow">↗</span>
+
+            </div>
+
+
+            <div class="stat-card purple-card">
+
+                <div class="stat-icon purple-icon">
+                    📄
+                </div>
+
+                <div class="stat-info">
+                    <span>Total Claims</span>
+                    <strong>2</strong>
+                    <small>Claims submitted</small>
+                </div>
+
+                <div class="mini-chart purple-chart">
+                    ▂▄▅▇█
+                </div>
+
+                <span class="corner-arrow">↗</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- MAIN GRID -->
+        <section class="dashboard-grid">
+
+
+            <!-- RECENT PRODUCTS -->
+            <div class="panel products-panel">
+
+                <div class="panel-heading">
+
+                    <div>
+                        <h2>Recently Added Products</h2>
+                        <p>Your latest 3 products</p>
+                    </div>
+
+                    <button class="view-button">
+                        View All →
+                    </button>
+
+                </div>
+
+
+                <div class="product-grid">
+
+
+                    <!-- PRODUCT 1 -->
+                    <div class="product-card">
+
+                        <div class="product-image airpods">
+                            🎧
+
+                            <span class="status-dot green-dot"></span>
+
+                            <span class="date-badge">
+                                📅 2 Oct 2026
+                            </span>
+                        </div>
+
+                        <div class="product-details">
+
+                            <div>
+                                <h3>AirPods Pro</h3>
+                                <p>Apple · Earbuds</p>
+                            </div>
+
+                            <span class="status active">
+                                Active
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PRODUCT 2 -->
+                    <div class="product-card">
+
+                        <div class="product-image macbook">
+                            💻
+
+                            <span class="status-dot orange-dot"></span>
+
+                            <span class="date-badge">
+                                📅 28 Aug 2026
+                            </span>
+                        </div>
+
+                        <div class="product-details">
+
+                            <div>
+                                <h3>MacBook Air</h3>
+                                <p>Apple · Laptop</p>
+                            </div>
+
+                            <span class="status expiring">
+                                Expiring Soon
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PRODUCT 3 -->
+                    <div class="product-card">
+
+                        <div class="product-image phone">
+                            📱
+
+                            <span class="status-dot red-dot"></span>
+
+                            <span class="date-badge">
+                                📅 20 Oct 2026
+                            </span>
+                        </div>
+
+                        <div class="product-details">
+
+                            <div>
+                                <h3>Samsung Galaxy S24</h3>
+                                <p>Samsung · Smartphone</p>
+                            </div>
+
+                            <span class="status near-expiry">
+                                Near Expiry
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- WARRANTY STATUS -->
+            <div class="panel warranty-panel">
+
+                <div class="panel-heading">
+
+                    <div>
+                        <h2>Warranty Status ⓘ</h2>
+                    </div>
+
+                    <button class="filter-button">
+                        All ⌄
+                    </button>
+
+                </div>
+
+
+                <div class="status-row">
+
+                    <div class="status-label">
+                        <span class="circle green"></span>
+                        Active
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-green"></div>
+                    </div>
+
+                    <strong>9</strong>
+
+                </div>
+
+
+                <div class="status-row">
+
+                    <div class="status-label">
+                        <span class="circle orange"></span>
+                        Expiring Soon
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-orange"></div>
+                    </div>
+
+                    <strong>3</strong>
+
+                </div>
+
+
+                <div class="status-row">
+
+                    <div class="status-label">
+                        <span class="circle red"></span>
+                        Near Expiry
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-red"></div>
+                    </div>
+
+                    <strong>1</strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUCT TABLE -->
+            <div class="panel table-panel">
+
+                <div class="filters">
+
+                    <button>⌂ All Category ⌄</button>
+
+                    <button>♢ All Status ⌄</button>
+
+                    <button>📅 Upload Date (Latest) ⌄</button>
+
+                    <div class="table-search">
+                        🔍
+                        <input
+                            type="text"
+                            id="tableSearch"
+                            placeholder="Search products..."
+                        >
+                    </div>
+
+                </div>
+
+
+                <div class="table">
+
+                    <div class="table-header">
+
+                        <span>Product</span>
+                        <span>Category</span>
+                        <span>Invoice Date</span>
+                        <span>Warranty Expiry</span>
+                        <span>Status</span>
+                        <span>Action</span>
+
+                    </div>
+
+
+                    <div class="table-row">
+
+                        <div class="table-product">
+                            <div class="small-image">🎧</div>
+
+                            <div>
+                                <strong>AirPods Pro</strong>
+                                <small>Apple</small>
+                            </div>
+                        </div>
+
+                        <span>Electronics</span>
+
+                        <span>15 Dec 2025</span>
+
+                        <span>15 Dec 2027</span>
+
+                        <span class="status active">
+                            Active
+                        </span>
+
+                        <button class="more">•••</button>
+
+                    </div>
+
+
+                    <div class="table-row">
+
+                        <div class="table-product">
+                            <div class="small-image">💻</div>
+
+                            <div>
+                                <strong>MacBook Air</strong>
+                                <small>Apple</small>
+                            </div>
+                        </div>
+
+                        <span>Laptop</span>
+
+                        <span>28 Aug 2025</span>
+
+                        <span>28 Aug 2027</span>
+
+                        <span class="status expiring">
+                            Expiring Soon
+                        </span>
+
+                        <button class="more">•••</button>
+
+                    </div>
+
+
+                    <div class="table-row">
+
+                        <div class="table-product">
+                            <div class="small-image">📱</div>
+
+                            <div>
+                                <strong>Samsung Galaxy S24</strong>
+                                <small>Samsung</small>
+                            </div>
+                        </div>
+
+                        <span>Smartphone</span>
+
+                        <span>20 Oct 2024</span>
+
+                        <span>20 Oct 2026</span>
+
+                        <span class="status near-expiry">
+                            Near Expiry
+                        </span>
+
+                        <button class="more">•••</button>
+
+                    </div>
+
+
+                    <div class="table-row">
+
+                        <div class="table-product">
+                            <div class="small-image">🎧</div>
+
+                            <div>
+                                <strong>Sony Headphones</strong>
+                                <small>Sony</small>
+                            </div>
+                        </div>
+
+                        <span>Audio</span>
+
+                        <span>12 Jan 2026</span>
+
+                        <span>12 Jan 2028</span>
+
+                        <span class="status active">
+                            Active
+                        </span>
+
+                        <button class="more">•••</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- OLDEST PRODUCT -->
+            <div class="panel oldest-panel">
+
+                <div class="panel-heading">
+
+                    <h2>Oldest Product</h2>
+
+                    <button class="view-button">
+                        View →
+                    </button>
+
+                </div>
+
+                <p class="subtitle">
+                    Nearest to Expiry
+                </p>
+
+
+                <div class="oldest-product">
+
+                    <div class="phone-preview">
+                        📱
+                    </div>
+
+                    <div class="oldest-info">
+
+                        <h3>Samsung Galaxy S24</h3>
+
+                        <p>Samsung · Smartphone</p>
+
+                        <span>
+                            Invoice Date: <b>20 Oct 2024</b>
+                        </span>
+
+                        <span>
+                            Warranty Expires:
+                            <b>20 Oct 2026</b>
+                        </span>
+
+                    </div>
+
+                    <div class="days-left">
+                        17 days left
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- CATEGORY CHART -->
+            <div class="panel category-panel">
+
+                <div class="panel-heading">
+
+                    <h2>Products by Category</h2>
+
+                    <button class="view-button">
+                        ↗
+                    </button>
+
+                </div>
+
+
+                <div class="category-content">
+
+                    <div class="donut">
+
+                        <div class="donut-center">
+                            <strong>12</strong>
+                            <span>Products</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="legend">
+
+                        <div>
+                            <span class="legend-dot blue"></span>
+                            Electronics
+                            <b>5</b>
+                        </div>
+
+                        <div>
+                            <span class="legend-dot purple"></span>
+                            Smartphone
+                            <b>3</b>
+                        </div>
+
+                        <div>
+                            <span class="legend-dot cyan"></span>
+                            Laptop
+                            <b>2</b>
+                        </div>
+
+                        <div>
+                            <span class="legend-dot pink"></span>
+                            Audio
+                            <b>1</b>
+                        </div>
+
+                        <div>
+                            <span class="legend-dot gray"></span>
+                            Others
+                            <b>1</b>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <footer>
+            © 2026 Claim Vault · Smart Warranty & Claim Management
+        </footer>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
